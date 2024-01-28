@@ -1,1 +1,4 @@
 cd1f12c54bcc7041a95f6913d830b380c111387d@sg1.testnet.glitter.link:46656
+658a0c23b064963e68ebafae5944dd5d3f316173@sg2.testnet.glitter.link:46656
+787231466d2b572eeb565fb90df4297f4b1cb6f9@sg3.testnet.glitter.link:46656
+b7cb2ce3009673f0d18011b3a9ef1300bb273f6a@sg4.testnet.glitter.link:46656
