@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2023-05-21T06:45:00.209028019Z",
-  "chain_id": "glitter_12000-2",
+  "genesis_time": "2024-10-15T15:56:27.837047864Z",
+  "chain_id": "glitter_12001-4",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "glitter1g4yzjcwdvpx57hpaq4xmn08uy0dvpumyvhkns4",
+            "address": "glitter1tzgw8j8je2gguxw4kv2xn3gdvrz7306v00dwd4",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -50,7 +50,7 @@
       },
       "balances": [
         {
-          "address": "glitter1g4yzjcwdvpx57hpaq4xmn08uy0dvpumyvhkns4",
+          "address": "glitter1tzgw8j8je2gguxw4kv2xn3gdvrz7306v00dwd4",
           "coins": [
             {
               "denom": "agli",
@@ -70,6 +70,14 @@
     "capability": {
       "index": "1",
       "owners": []
+    },
+    "consumer": {
+      "params": {
+        "releasing_cpdt_wait_time": "1814400s",
+        "max_cpdt_entries": 7
+      },
+      "consumers": [],
+      "releasing_CPDTs": []
     },
     "crisis": {
       "constant_fee": {
@@ -163,11 +171,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "glitter1g4yzjcwdvpx57hpaq4xmn08uy0dvpumyvhkns4",
-                "validator_address": "glittervaloper1g4yzjcwdvpx57hpaq4xmn08uy0dvpumyeu68a8",
+                "delegator_address": "glitter1tzgw8j8je2gguxw4kv2xn3gdvrz7306v00dwd4",
+                "validator_address": "glittervaloper1tzgw8j8je2gguxw4kv2xn3gdvrz7306v6yp6q8",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "hmjb7nsyd9jUOWjfydqE39ywF+6o+a7KRL78wTduM50="
+                  "key": "5m/0pBEK6RWtk5MSKxhzHawxwIW2OEJLzmjZVu3m7P0="
                 },
                 "value": {
                   "denom": "agli",
@@ -175,7 +183,7 @@
                 }
               }
             ],
-            "memo": "787231466d2b572eeb565fb90df4297f4b1cb6f9@139.177.191.36:26656",
+            "memo": "37d609a3fa5fd6fa95f10117ca3c05ee17e833c2@172.236.148.243:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -185,7 +193,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "AuMOaN3ZUDASJArjj+6vwvFiWD+V3hJZfYokVi2k6rAE"
+                  "key": "AtLUXSo7qYasXkaAeWuyZaFrpMq5byJxKQBNULo1sAXp"
                 },
                 "mode_info": {
                   "single": {
@@ -203,7 +211,7 @@
             }
           },
           "signatures": [
-            "sz0LntnmuNngSA4zReGVcIoy57LlfthN7isr0ThaMLAdZG///DDbdGJPrpGFruxgmJqGXfhh6j5onk/1CYH93QA="
+            "YubZqEUAgDzn124ZA0NZqsv7fNEkNUmNlVBoj/trpMt8mJTW3aceX+RvvyEMKHbO0u78IgQLlOUPAdcs4x3lqQA="
           ]
         }
       ]
@@ -265,7 +273,12 @@
       }
     },
     "index": {
-      "schema_list": []
+      "params": {
+        "fee_per_dataset_per_second": "1000000000000",
+        "grace_period": "1814400"
+      },
+      "datasets": [],
+      "CPDTs": []
     },
     "inflation": {
       "params": {
@@ -289,7 +302,7 @@
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "10000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
